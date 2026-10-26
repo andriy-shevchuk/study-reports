@@ -5,15 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Playwright reports</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; color: #1f2328; }
-    li { margin: 6px 0; }
+    body { font-family: system-ui, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 16px; color: #1f2328; }
+    table { border-collapse: collapse; width: 100%; } td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid #d0d7de; }
     .muted { color: #57606a; font-size: 14px; }
   </style>
 </head>
 <body>
   <h1>Playwright reports</h1>
-  <p class="muted">Репорти з CI <a href="https://github.com/andriy-shevchuk/study">study/playwright</a>. Прогонів ще немає.</p>
-  <p><a href="latest/">latest</a></p>
-  <ul id="runs"></ul>
+  <p class="muted">HTML-звіти з CI <a href="https://github.com/andriy-shevchuk/study">study/playwright</a>. Зберігаються останні 30 прогонів. Trace у звіті відкривається через trace.playwright.dev.</p>
+  <p><a href="latest/">Останній прогін</a></p>
+  <table>
+    <thead><tr><th>Прогін</th><th>Дата (UTC)</th><th>Гілка</th><th>Подія</th><th>Результат</th><th>GitHub</th></tr></thead>
+    <tbody>
+<tr><td><a href="runs/5/">#5</a></td><td>2026-10-26 15:23</td><td><code>main</code></td><td>workflow_dispatch</td><td>✅ 38 passed</td><td><a href="https://github.com/andriy-shevchuk/study/actions/runs/40348684730">run</a></td></tr>
+    </tbody>
+  </table>
+  <p class="muted">https://andriy-shevchuk.github.io/study-reports</p>
 </body>
 </html>
