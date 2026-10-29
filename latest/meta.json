@@ -1,15 +1,15 @@
 {
-  "number": 5,
-  "date": "2026-10-26T15:23:27.136Z",
+  "number": 6,
+  "date": "2026-10-29T16:21:36.982Z",
   "ref": "main",
-  "event": "workflow_dispatch",
+  "event": "push",
   "actor": "andriy-shevchuk",
   "outcome": "success",
-  "runUrl": "https://github.com/andriy-shevchuk/study/actions/runs/40348684730",
+  "runUrl": "https://github.com/andriy-shevchuk/study/actions/runs/40910600695",
   "stats": {
-    "expected": 38,
+    "expected": 213,
     "unexpected": 0,
-    "flaky": 0,
-    "skipped": 0
+    "flaky": 1,
+    "skipped": 4
   }
 }
